@@ -8,7 +8,7 @@ class Morsa(Animal):
 
         super().__init__(nombre=nombre, edad=edad)
 
-        self.tipo = 'morsa'
+        self.especie = 'morsa'
 
         for juego in ['parchís', 'dominó', 'tres en raya']:
             self.habilidad[juego] = asignar_nivel_de_habilidad()
@@ -23,7 +23,7 @@ class Pinguino(Animal):
 
         super().__init__(nombre=nombre, edad=edad)
 
-        self.tipo = 'pingüino'
+        self.especie = 'pingüino'
 
         for juego in ['ajedrez', 'dominó', 'tres en raya']:
             self.habilidad[juego] = asignar_nivel_de_habilidad()
@@ -39,7 +39,7 @@ class Ballena(Animal):
 
         super().__init__(nombre=nombre, edad=edad)
 
-        self.tipo = 'ballena'
+        self.especie = 'ballena'
 
         for juego in ['parchís', 'dominó', 'ajedrez']:
             self.habilidad[juego] = asignar_nivel_de_habilidad()
