@@ -1,8 +1,4 @@
 from setuptools import setup, find_packages
-from numpy.distutils.core import setup
-from numpy.distutils.extension import Extension
-
-extensions_list=[]
 
 setup(
     name='morsa',
@@ -11,7 +7,6 @@ setup(
     author_email='uibcdf@gmail.com',
     package_dir={'morsa': 'morsa'},
     packages=find_packages(),
-    ext_modules=extensions_list,
     package_data={'morsa': []},
     scripts=[],
     url='http://github.uibcdf.org/Morsa',
