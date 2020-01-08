@@ -50,17 +50,7 @@ class Animal:
             Edad del jugador (`None` por defecto). Si el valor es `None` la edad es generada
             aleatoriamente como un entero entre 18 y 100.
 
-        Methods
-        -------
-        reiniciar_puntos()
-            El atributo puntos adquiere el valor 0.
-        quien_soy(solo_nombre=False)
-            Devuelve un string que presenta al jugador.
-        cual_es_mi_mejor_habilidad()
-            Devuele el nombre del juego en el que el jugador es más habil.
-
         """
-
 
         self.nombre = nombre
         self.edad = edad
